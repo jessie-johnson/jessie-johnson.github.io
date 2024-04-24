@@ -1,0 +1,74 @@
+/* Add this CSS for fade-in effect */
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.fade-in.active {
+    opacity: 1;
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8; /* Light gray background */
+    color: #333; /* Dark gray text */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #fff; /* White header background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    color: #333; /* Dark gray text */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333; /* Dark gray text */
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333; /* Dark gray text */
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+footer {
+    background: #fff; /* White footer background */
+    color: #333; /* Dark gray text */
+    text-align: center;
+    padding: 20px 0;
+}
